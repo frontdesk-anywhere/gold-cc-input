@@ -93,7 +93,7 @@ card_types = [
   {
     name: 'union_pay',
     icon: 'images/union_pay.png',
-    pattern: /^(62[0-9]{11,19})/,
+    pattern: /^(62[0-9]{14,17})/,
     valid_length: [13, 14, 15, 16, 17, 18, 19]
   }
 ];
