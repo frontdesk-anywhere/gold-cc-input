@@ -155,7 +155,6 @@ function get_card_type(number) {
     card_type = _ref1[_j];
 
     if (number.match(card_type.pattern)) {
-      console.log(number.slice(0,8));
       if (number.slice(0,8) >= 62212600 && number.slice(0,8) <= 62292599 
         || number.slice(0,8) >= 62400000 && number.slice(0,8) <= 62699999
         || number.slice(0,8) >= 62820000 && number.slice(0,8) <= 62889999
