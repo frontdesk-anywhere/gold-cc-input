@@ -75,7 +75,7 @@ card_types = [{
 }, {
   name: 'mastercard',
   icon: 'images/mastercard.png',
-  pattern: /^5[1-5]/,
+  pattern: /^(5[1-5][0-9]{14}|2(2(2[1-9]|[3-9][0-9])|[3-6][0-9][0-9]|7([0-1][0-9]|20))[0-9]{12})$/,
   valid_length: [16]
 }, {
   name: 'maestro',
